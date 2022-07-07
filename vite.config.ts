@@ -11,4 +11,7 @@ export default defineConfig({
     emptyOutDir: true,
   },
   plugins: [react(), VitePWA()],
+  server: {
+    host: true
+  }
 })
